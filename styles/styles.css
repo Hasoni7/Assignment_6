@@ -21,7 +21,6 @@ body {
   display: flex;
   gap: 50px;
   font-weight: 600;
-  font-style: normal;
 }
 
 .nav a {
@@ -61,7 +60,6 @@ section {
   justify-content: space-between;
   font-weight: 500;
   font-style: normal;
-  padding-top: 30px;
   max-height: 496px;
 }
 
@@ -80,10 +78,16 @@ h2 {
 
 p {
   font-weight: 500;
-  font-size: 18px;
-  max-width: 458px;
+  font-size: 16px;
   margin-top: 0px;
+}
+.getstarted {
+  margin-top: 30px;
+}
+.getstarted p {
   margin-bottom: 56px;
+  max-width: 458px;
+  font-size: 18px;
 }
 
 .btn {
@@ -119,6 +123,7 @@ button:hover {
 .fa-solid {
   padding-right: 9px;
   scale: 1.5;
+  color: #ff9900;
 }
 
 .designtools {
@@ -132,13 +137,14 @@ button:hover {
 
 h3 {
   font-size: 36px;
-  width: 539px;
   margin-top: 0px;
-  text-align: center;
   overflow: hidden;
   color: #2f281e;
 }
-
+.designtools .secondaryheader {
+  width: 539px;
+  text-align: center;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -148,4 +154,45 @@ h3 {
 .card {
   max-width: 240px;
   max-height: 204px;
+}
+.professionals {
+  padding-top: 205px;
+  width: 1110px;
+  height: 574px;
+}
+/*here I relized I can tag both p from 2 
+different section in one css code*/
+.professionals p,
+.marketers p {
+  max-width: 486px;
+}
+
+/* the text above the headers in section 3, 4 and 5*/
+.smallerheader {
+  margin-bottom: 0px;
+}
+
+.managers {
+  margin-top: 101px;
+  width: 1121px;
+  max-height: 521px;
+}
+.managers p {
+  max-width: 430px;
+}
+.icon-text {
+  display: flex;
+  gap: 30px;
+  width: 430px;
+  padding-bottom: 30px;
+}
+.icon-text img {
+  width: 35px;
+  height: 35px;
+  max-width: 100%;
+}
+
+.marketers {
+  padding-top: 104px;
+  width: 1110px;
 }
